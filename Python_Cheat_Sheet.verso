@@ -1,0 +1,25 @@
+{
+  "verso": "1.1",
+  "metadata": {
+    "defaultKernel": "csharp",
+    "activeLayout": {
+      "extensionId": "verso.layout.notebook",
+      "layoutId": "notebook"
+    }
+  },
+  "cells": [
+    {
+      "id": "61eaff4b-eb69-47f5-b18e-b6a1ebd86d48",
+      "type": "code",
+      "language": "python",
+      "source": "# Example of how to list all available methods, functions, and attributes in a Python module or package,\r\nimport math\r\nprint(\u0022\\n\u0022.join(dir(math)))",
+      "outputs": [
+        {
+          "mimeType": "text/plain",
+          "content": "__doc__\n__loader__\n__name__\n__package__\n__spec__\nacos\nacosh\nasin\nasinh\natan\natan2\natanh\ncbrt\nceil\ncomb\ncopysign\ncos\ncosh\ndegrees\ndist\ne\nerf\nerfc\nexp\nexp2\nexpm1\nfabs\nfactorial\nfloor\nfma\nfmod\nfrexp\nfsum\ngamma\ngcd\nhypot\ninf\nisclose\nisfinite\nisinf\nisnan\nisqrt\nlcm\nldexp\nlgamma\nlog\nlog10\nlog1p\nlog2\nmodf\nnan\nnextafter\nperm\npi\npow\nprod\nradians\nremainder\nsin\nsinh\nsqrt\nsumprod\ntan\ntanh\ntau\ntrunc\nulp\n",
+          "channel": "stdout"
+        }
+      ]
+    }
+  ]
+}
