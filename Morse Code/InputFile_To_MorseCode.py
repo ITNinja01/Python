@@ -1,9 +1,15 @@
 from MorseCodePy import encode
+from pathlib import Path
 
-txt_file = input("Enter the path to the text file: ")
+# Can have both input and path on same line
+txt_file = Path(input("Enter the path to the text file: "))
 
-with open(txt_file, 'r') as file:
-    txt_input = file.read()
+if txt_file.is_file():
+    #Opening file to read it
+    with open(txt_file, 'r') as file:
+        txt_input = file.read()
 
-encoded_string = encode(txt_input, language='english')
-print(encoded_string)
+    encoded_string = encode(txt_input, language='english')
+    print(encoded_string)
+else:
+    print("The file does not exist.")
