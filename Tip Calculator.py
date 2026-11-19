@@ -11,4 +11,4 @@ Total_Amount = float(Bill_Amount + Tip_Total)
 
 #Output the tip and total amounts
 print("The tip total is:", Tip_Total)
-print("The total to pay is:", Total_Amount)
+print("The total to pay is:", Total_Amount)  
